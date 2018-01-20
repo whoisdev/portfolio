@@ -2,30 +2,23 @@
   position: relative;
     background-image:url("maxresdefault.jpg");
     background-repeat: no-repeat;
-    height: 60%;
+    height: 45%;
 }
 .navbar{
     padding-top: 3.5%;
     padding-left: 65%;
     background-color: transparent;
 }
-
 .navbar .navbar-brand{
     font-size: 40px;
     padding-left: 70%;
     color: gray;
     background-color: transparent;
 }
-
 .navbar .nav-item .nav-link:visited{
     color: white;
 }
-.navbar .nav-item .nav-link:hover{
-    color: white;
-}
-
 .navbar .nav-item .nav-link{
-
     font-size: 18px;
     padding-top: 20px;
     color: white;
@@ -34,7 +27,6 @@
 .text_area{
     margin-left: 38%;
     background-color: transparent;
-    /*text-align: center;*/
     font-size: 35px;
     margin-top: 200px;
     color: transparent;
@@ -49,7 +41,7 @@
 .name{
     font-size: 40px;
     margin-top: 12%;
-    margin-left: 60px;
+    margin-left: 10%;
     color: white;
     background-color: transparent;
     animation: myanimation;
@@ -57,17 +49,17 @@
     animation-fill-mode: forwards;
     animation-iteration-count: 1;
 }
+
 .short{
     font-size:20px;
-
 }
 .red{
     position: relative;
     border: none;
-    margin-left: 10px;
+    margin-left: 1%;
     background-color: tomato;
-    width: 10px;
-    height: 10px;
+    width: 1%;
+    height: 40%;
     border-radius: 50%;
     display: inline-block;
 }
@@ -75,16 +67,16 @@
     border: none;
     position:relative;
     background-color:yellow;
-    width: 10px;
-    height: 10px;
+    width: 1%;
+    height: 40%;
     border-radius: 50%;
 }
 .green{
     border: none;
     position:relative;
     background-color: mediumseagreen;
-    width: 10px;
-    height: 10px;
+    width: 1%;
+    height: 40%;
     border-radius: 50%;
 }
 .terminal{
@@ -97,7 +89,6 @@
     top:5%;
     margin-left: 12%;
     overflow: hidden;
-
 }
 .top_thing{
     position: absolute;
@@ -183,7 +174,7 @@
     background-repeat: no-repeat;
     background-position: top 0px center;
     background-size:cover;
-    height: 60%;
+    height: 50%;
     background-color: #1A1A1A;
 }
 .Education{
@@ -217,7 +208,15 @@
 }
 .terminal p{
     font-size: 20px;
-    margin-top: 15px;
+    /*margin-bottom: 3%;*/
+    /*margin-top: 3%;*/
+    z-index: 1;
+}
+
+.terminal li{
+    position: relative;
+    z-index: auto;
+
 }
 .cont{
     position: absolute;
@@ -299,6 +298,37 @@
     color: white;
     font-family: 'Roboto', sans-serif;
 }
+.fb{
+    position: relative;
+    border:none;
+    background: none;
+    padding-left: 30%;
+    padding-top: 2%;
+}
+.git{
+    position: relative;
+    max-height: 20%;
+    max-width: 100px;
+    /*padding: 0;*/
+    margin-left: 5%;
+    background:none;
+    border: none;
+}
+/*.gitb{*/
+    /*max-height: 50px;*/
+    /*max-width: 70px;*/
+    /*background-color: black;*/
+    /*border: none;*/
+/*}*/
+.linkedln{
+    position: relative;
+    max-height: 70px;
+    max-width: 100px;
+    margin-left: 5%;
+    background: none;
+    border: none;
+}
+
 #projects{
     /*width: 900px;*/
     position: relative;
