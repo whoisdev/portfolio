@@ -270,13 +270,12 @@
     color: whitesmoke;
 }
 .link{
-    position: relative;
+    position: absolute;
     border-radius: 4px;
-    width: 40%;
-    margin-left: 25%;
+    width: 150px;
+    margin-left: 20%;
     background-color:#007bff;
     color: white;
-    padding: 0px;
 }
 .footer{
     height: 250px;
