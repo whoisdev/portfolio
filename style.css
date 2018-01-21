@@ -54,7 +54,6 @@
     font-size:20px;
 }
 .red{
-    position: relative;
     border: none;
     margin-left: 1%;
     background-color: tomato;
@@ -65,7 +64,6 @@
 }
 .orange{
     border: none;
-    position:relative;
     background-color:yellow;
     width: 1%;
     height: 40%;
@@ -73,7 +71,6 @@
 }
 .green{
     border: none;
-    position:relative;
     background-color: mediumseagreen;
     width: 1%;
     height: 40%;
@@ -120,17 +117,12 @@
     color: white;
     padding-left: 9px;
 }
-.answer5{
-    position: absolute;
-    padding-top: 42%;
-    color: white;
-    padding-left: 9px;
-}
+
 .resume1{
     position: absolute;
     color: tomato;
     padding-left: 9px;
-    padding-top: 39%;
+    padding-top: 45%;
 }
 
 .skills{
@@ -139,11 +131,12 @@
     color: tomato;
     padding-left: 9px;
 }
-.answer2{
+.id12{
     position: absolute;
     padding-top: 13%;
     color: white;
     padding-left: 9px;
+    z-index: auto;
 }
 .answer3{
     position: absolute;
@@ -208,14 +201,12 @@
 }
 .terminal p{
     font-size: 20px;
-    /*margin-bottom: 3%;*/
-    /*margin-top: 3%;*/
     z-index: 1;
 }
 
 .terminal li{
     position: relative;
-    z-index: auto;
+    z-index:1;
 
 }
 .cont{
@@ -226,6 +217,12 @@
     border: 1px solid gray;
     border-radius: 10px;
     overflow: hidden;
+}
+.answer5{
+    position: absolute;
+    padding-top: 49%;
+    color: white;
+    padding-left: 9px;
 }
 .cont1{
     position: absolute;
@@ -241,6 +238,7 @@
     color: whitesmoke;
     text-align: center;
     padding-top: 50px;
+  font-family: 'Roboto', sans-serif;;
 }
 .cont2{
     position: absolute;
@@ -273,12 +271,12 @@
 }
 .link{
     position: relative;
-    height: 40px;
     border-radius: 4px;
+    width: 40%;
     margin-left: 25%;
     background-color:#007bff;
-    border: hidden;
     color: white;
+    padding: 0px;
 }
 .footer{
     height: 250px;
@@ -302,14 +300,13 @@
     position: relative;
     border:none;
     background: none;
-    padding-left: 30%;
+    margin-left: 30%;
     padding-top: 2%;
 }
 .git{
     position: relative;
-    max-height: 20%;
+    max-height: 80px;
     max-width: 100px;
-    /*padding: 0;*/
     margin-left: 5%;
     background:none;
     border: none;
@@ -373,9 +370,4 @@
         border-color: white;
     }
 }
-@media (max-width: 320px) {
-    .home_page{
-        height: 90%;
-        width: 20px;
-    }
-}
+
