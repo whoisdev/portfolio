@@ -1,373 +1,79 @@
-.home_page{
-  position: relative;
-    background-image:url("maxresdefault.jpg");
-    background-repeat: no-repeat;
-    height: 45%;
-}
-.navbar{
-    padding-top: 3.5%;
-    padding-left: 65%;
-    background-color: transparent;
-}
-.navbar .navbar-brand{
-    font-size: 40px;
-    padding-left: 70%;
-    color: gray;
-    background-color: transparent;
-}
-.navbar .nav-item .nav-link:visited{
-    color: white;
-}
-.navbar .nav-item .nav-link{
-    font-size: 18px;
-    padding-top: 20px;
-    color: white;
-    background-color: transparent;
-}
-.text_area{
-    margin-left: 38%;
-    background-color: transparent;
-    font-size: 35px;
-    margin-top: 200px;
-    color: transparent;
-    animation:typing-text 3s steps(20),blink 0.9s infinite alternate;
-    overflow: hidden;
-    white-space: nowrap;
-    border-right: 3px solid white;
-    animation-fill-mode: forwards;
-    animation-delay:1s;
-}
-
-.name{
-
-    font-size: 40px;
-    margin-top: 7%;
-    margin-left: 10%;
-    color: white;
-    background-color: transparent;
-    animation: myanimation;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: 1;
-}
-
-.short{
-    font-size:20px;
-}
-.red{
-    border: none;
-    margin-left: 1%;
-    background-color: tomato;
-    width: 1%;
-    height: 40%;
-    border-radius: 50%;
-    display: inline-block;
-}
-.orange{
-    border: none;
-    background-color:yellow;
-    width: 1%;
-    height: 40%;
-    border-radius: 50%;
-}
-.green{
-    border: none;
-    background-color: mediumseagreen;
-    width: 1%;
-    height: 40%;
-    border-radius: 50%;
-}
-.terminal{
-    position: relative;
-    background-color: #2B3D50;
-    height: 70%;
-    max-width: 75%;
-    border-bottom-left-radius:15px;
-    border-bottom-right-radius:15px;
-    top:5%;
-    margin-left: 12%;
-    overflow: hidden;
-}
-.top_thing{
-    position: absolute;
-    background-color: #DAD9D9 ;
-    width: 100%;
-    height: 30px;
-}
-.intro{
-    position: absolute;
-    padding-top: 4%;
-    color: tomato;
-    padding-left: 9px;
-}
-.majors,.intro2{
-    position: absolute;
-    color: tomato;
-    padding-left: 9px;
-    padding-top: 16%;
-}
-.intro3{
-    position: absolute;
-    color: tomato;
-    padding-left: 9px;
-    padding-top: 22%;
-}
-.answer{
-    position: absolute;
-    padding-top: 7%;
-    color: white;
-    padding-left: 9px;
-}
-
-.resume1{
-    position: absolute;
-    color: tomato;
-    padding-left: 9px;
-    padding-top: 45%;
-}
-
-.skills{
-    position: absolute;
-    padding-top: 7%;
-    color: tomato;
-    padding-left: 9px;
-}
-.id12{
-    position: absolute;
-    padding-top: 13%;
-    color: white;
-    padding-left: 9px;
-    z-index: auto;
-}
-.answer3{
-    position: absolute;
-    padding-top: 19%;
-    color: white;
-    padding-left: 9px;
-}
-.answer4 ul{
-    list-style: none;
-    position: absolute;
-    padding-top: 27%;
-    color: white;
-    padding-left: 9px;
-}
-.query,.query2,.query3{
-    position:relative;
-    padding-left: 10px;
-    color: white;
-}
-.university{
-    position: absolute;
-    padding-top: 10%;
-    color: tomato;
-    padding-left: 9px;
-}
-#about{
-    background-image: url("black-and-white-code-programming-tech-79290.jpeg");
-    background-repeat: no-repeat;
-    background-position: top 0px center;
-    background-size:cover;
-    height: 50%;
-    background-color: #1A1A1A;
-}
-.Education{
-    font-size: 30px;
-   margin-left: 5%;
-    padding-top: 50px;
+body,html{
+	height: 100%;
+	margin:0;
 
 }
-.uviclink{
-  color: white;
-}
 
-.boldone{
-    margin-left: 32px;
-    font-size: 30px;
+#landing-page{
+	height: 100%;
+	background-image: url("/home/dev/Desktop/Portfolio/New-Port/cool-background.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 }
-.do{
-    margin-left: 10%;
-    padding-top: 100px;
-}
-.card{
-    position: relative;
-    width: 500px;
-    padding-top: 100px;
-    margin-left: 100px;
-    background-color: transparent;
-    float: left;
-}
-.card-text{
-    color: white;
-}
-.terminal p{
-    font-size: 20px;
-    z-index: 1;
-}
-
-.terminal li{
-    position: relative;
-    z-index:1;
+.svgg{
+	width: 50px;
+	position: absolute;
+    bottom: 5%;
+ 	left: 50%;
+  	transform: translate(-50%, 0);
 
 }
-.cont{
-    position: absolute;
-   margin: 6%;
-    width: 35%;
-    height: 230px;
-    border: 1px solid gray;
-    border-radius: 10px;
-    overflow: hidden;
+.btn{
+	float: right;
+	margin:3%;
+	background-color: transparent;
+	color: white;
+	border-radius: 25px;
+	font-weight: 700;
 }
-.answer5{
-    position: absolute;
-    padding-top: 49%;
-    color: white;
-    padding-left: 9px;
-}
-.cont1{
-    position: absolute;
-    margin-left:55%;
-    margin-top: 6%;
-    width: 35%;
-    height: 230px;
-    border: 1px solid gray;
-    border-radius: 10px;
-    overflow: hidden;
-}
-.h{
-    color: whitesmoke;
-    text-align: center;
-    padding-top: 50px;
-  font-family: 'Roboto', sans-serif;;
-}
-.cont2{
-    position: absolute;
-    margin-left:6%;
-    margin-top: 30%;
-    width: 35%;
-    height: 230px;
-    border: 1px solid gray;
-    border-radius: 10px;
-    overflow: hidden;
-}
-.cont3{
-    position: absolute;
-    margin-left:55%;
-    margin-top: 30%;
-    width: 35%;
-    height: 230px;
-    border: 1px solid gray;
-    border-radius: 10px;
-    overflow: hidden;
-}
-.text1{
-    padding-left: 4%;
-    color: white;
-}
-.header1{
-    padding-top: 5%;
-    padding-left: 5px;
-    color: whitesmoke;
-}
-.link{
-    position: absolute;
-    border-radius: 4px;
-    width: 150px;
-    margin-left: 20%;
-    background-color:#007bff;
-    color: white;
-}
-.footer{
-    height: 250px;
-    background-color: black;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.get{
-    padding-top: 50px;
-    text-align: center;
-    color: whitesmoke;
-    font-family: 'Roboto', sans-serif;
-}
-.Name{
-    padding-top: 9px;
-    text-align: center;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-}
-.fb{
-    position: relative;
-    border:none;
-    background: none;
-    margin-left: 30%;
-    padding-top: 2%;
-}
-.git{
-    position: relative;
-    max-height: 80px;
-    max-width: 100px;
-    margin-left: 5%;
-    background:none;
-    border: none;
-}
-/*.gitb{*/
-    /*max-height: 50px;*/
-    /*max-width: 70px;*/
-    /*background-color: black;*/
-    /*border: none;*/
-/*}*/
-.linkedln{
-    position: relative;
-    max-height: 70px;
-    max-width: 100px;
-    margin-left: 5%;
-    background: none;
-    border: none;
-}
+.btn:hover{
+	color: black;
+	background-color: transparent;
+	font-weight: 400;
 
-#projects{
-    /*width: 900px;*/
-    position: relative;
-    height: 60%;
-    background-color: black;
-    background-image:url("pexels-photo-169789.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
 }
-.main{
-  height: 1500px;
+.info{
+	margin-bottom: 10%;
+	/*display: none;*/
 }
-@keyframes myanimation {
-    0%{
-        color: transparent;
-    }
-    50%{
-    color:transparent;
+.about{
+	padding: 5% 15%;
 }
-
-    100%{
-    color:silver;
+#rew{
+	width: 200px;
+	height: 400px;
+	background-image:url("/home/dev/Desktop/Portfolio/New-Port/152748010049704833.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
+#rgk{
+	background-color:#eb4144
 }
-@keyframes typing-text{
-
-    from{
-        width: 0px;
-        color: gray;
-    }
-    to {
-        width: 280px;
-        color: gray;
-    }
+.box{
+	padding: 0 %;
+	border: 30px solid white;
 }
-
-@keyframes blink {
-    from{
-        border-color: transparent;
-    }
-    to{
-        border-color: white;
-    }
+.rewlogo{
+	margin-top: 13%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 250px;
 }
-
+.ipad{
+	padding: 0px;
+	width: 300px;
+	float: right;
+}
+.text{
+	text-align:center;
+	padding-top: 7%;
+	color: white
+}
+/*@media (min-width: 768px) and (max-width: 991px) {
+	.btn{
+		left: 50%;
+	}
+}*/
