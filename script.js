@@ -17,3 +17,7 @@ $("#up").on("click",function(){
 	});
 
 });
+
+  $("#right").click(function () {
+        $("#maps").show("slide", { direction: "left" }, 4000);
+    });
