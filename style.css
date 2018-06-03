@@ -11,8 +11,7 @@ body,html{
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	/*transform: skewY(-18deg);*/
-	/*transform-origin: 0;*/
+
 }
 .svgg{
 	width: 50px;
@@ -40,9 +39,8 @@ body,html{
 	font-weight: 400;
 }
 .info{
-	
 	margin-bottom: 10%;
-	/*display: none;*/
+	display: none;
 }
 .about{
 	padding: 5% 15%;
@@ -63,7 +61,7 @@ body,html{
 	-webkit-box-shadow: -2px 1px 18px -2px rgba(0,0,0,0.74);
 	-moz-box-shadow: -2px 1px 18px -2px rgba(0,0,0,0.74);
 	box-shadow: -2px 1px 18px -2px rgba(0,0,0,0.74);
-
+	/*display: none;*/
 }
 .box:hover{
 	cursor: pointer;
@@ -89,59 +87,49 @@ body,html{
 	padding-top: 7%;
 	color: white
 }
-h3{
-	text-align: center;
-}
 .svg-right{
 	width: 50px;
-	/*margin-top:auto;*/
-	/*margin-bottom: auto;*/
 	margin:auto 0%;	
 }
 #bottom{
-	/*margin-top: 10%;*/
 	width: 100%;
-	height: 650px;
-	background-color: #ec008c;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #fc6767, #ec008c);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #fc6767, #ec008c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	/*transform: skewY(8deg);
-	transform-origin: 0;*/
-	margin-bottom: 0;
+	height: 100%;
+	background: #000000;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	display: none;
 }
 .social{
-	/*transform: skewY(-8deg);
-	transform-origin: 0;*/
-	margin-bottom: 0px
+	margin-top: 5%;
+	text-align: center;
+	margin-bottom: 0;
 }
-.form{
-	/*transform: skewY(-8deg);
-	transform-origin: 0;*/
-	/*background-color: black;*/
-}
-.btm{
-	padding-top: 5%;
-}
-
 .btm-heading{
 	color: white;
 	margin-top: 3%;
 	text-align: center;
 	font-weight: 600;
-	/*transform: skewY(-8deg);*/
-	/*transform-origin: 0;*/
 }
 #row{
 	margin-top: 5%;
 	padding: 0px;
 }
-/*#map{
-	width: 700%;
-	height: 500px;
-	transform: skewY(-8deg);
-}*/
-/*@media (min-width: 768px) and (max-width: 991px) {
-	.btn{
-		left: 50%;
-	}
-}*/
+#map{
+	width: 100%;
+    height: 300px;
+}
+.touch{
+	font-weight: 200;
+}
+.name{
+	position: absolute;
+	top:50%;
+}
+.name  h1{
+	font-weight: 250;
+	color: white;
+	font-size: 3.5em;
+}
+#up{
+	width: 50px;
+}
