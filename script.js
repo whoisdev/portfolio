@@ -24,6 +24,4 @@ $("#up").on("click",function(){
 				$("#bottom").fadeIn(500);
 
 		});
-
-        // $("#bottom").facd("slide", { direction: "left" }, 4000);
     });
