@@ -7,19 +7,39 @@ body,html{
 #landing-page{
 	height: 100%;
 	width: 100%;
-	background-image: url("cool-background.png");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
+	background: #a8ff78;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
 }
 .svgg{
 	width: 50px;
 	position: absolute;
-    bottom: 5%;
+    bottom: 15%;
  	left: 50%;
   	transform: translate(-50%, 0);
 
+}
+.social-connect{
+	position: absolute;
+	bottom: 3%;
+	right:5%;
+}
+.social-connect ul{
+	list-style: none;
+
+}
+.social-connect ul li{
+	display: inline-block;
+
+}
+.social-connect a{
+	text-decoration: none;
+
+	display: inline-block;
+	color: white;
+	border-bottom: 1px solid white;
 }
 .svg-up{
 	width: 50px;
