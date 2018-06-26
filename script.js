@@ -185,10 +185,3 @@ $("#up").on("click", function() {
     });
 
 });
-
-$("#right").click(function() {
-    $(".info").fadeOut(500, function() {
-        $("#bottom").fadeIn(500);
-
-    });
-});
