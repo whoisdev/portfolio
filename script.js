@@ -1,3 +1,6 @@
+$(window).on("load", function() {
+    $("#shake").addClass("hand");
+});
 var  latitude=49.2327;
 var  longitude=-123.3407;
 $(window).resize(function(){
@@ -184,4 +187,12 @@ $("#up").on("click", function() {
 
     });
 
+});
+
+$("#rew").on("click",function(){
+    $("#modal-rew").fadeIn();
+});
+
+$("#close").on("click",function(){
+    $("#modal-rew").fadeOut();
 });
