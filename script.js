@@ -1,8 +1,19 @@
 $(window).on("load", function() {
     $("#shake").addClass("hand");
+    if ($(window).width() <= 800){
+        latitude=49.2827;
+        longitude= -123.1207;
+        initMap();
+    }
+    else{
+        latitude=49.2327;
+        longitude=-123.3407;
+        initMap();
+    }
 });
 var  latitude=49.2327;
 var  longitude=-123.3407;
+
 $(window).resize(function(){
     if ($(window).width() <= 800){  
         latitude=49.2827;
