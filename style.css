@@ -8,7 +8,7 @@ body,html{
 #landing-page{
 	height: 100%;
 	width: 100%;
-	background-image: linear-gradient(270deg, #84ffb9 30%, #80ccff 100%);
+	background-image: linear-gradient(270deg, #84ffb9 30%, #66c2ff 100%);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -56,6 +56,7 @@ body,html{
 	margin-bottom: 10%;
 	display: none;
 	width: 100%;
+	background-color: #fff;	
 }
 .about{
 	padding: 5% 15%;
@@ -206,6 +207,10 @@ body,html{
 	#btn{
 		margin-top: 10%;
 		float: none;
+	}
+	#landing-page{
+	background-image: linear-gradient(180deg, #84ffb9 30%, #66c2ff 100%);
+
 	}
 	#change-btn{
 	width: 100%;
