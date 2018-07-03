@@ -183,6 +183,7 @@ function initMap() {
 }
 $("#down").on("click", function() {
     $("#down").fadeOut();
+    $(".hand").fadeOut();
     $("#landing-page").slideUp(1000, function() {
         $(".info").fadeIn(500, );
         $("#up").fadeIn();
@@ -196,9 +197,9 @@ $("#up").on("click", function() {
     $("#landing-page").slideDown(1000, function() {
         $(".info").fadeOut(500, );
         $("#down").fadeIn();
+        $(".hand").fadeIn();
 
     });
-
 });
 
 $("#rew").on("click",function(){
