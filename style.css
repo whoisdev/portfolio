@@ -14,13 +14,15 @@ body,html{
 	background-size: cover;
 	display: none;
 }
+#finger{
+	margin-left: 30px;
+}
 .svgg{
 	width: 50px;
 	position: absolute;
     bottom: 15%;
  	left: 50%;
   	transform: translate(-50%, 0);
-
 }
 .social-connect{
 	position: absolute;
@@ -234,5 +236,11 @@ body,html{
 	}
 	#modal-rew{
 		width: 100%;
+	}
+	#finger{
+	margin-left: 0px;
+	}
+	.social-connect a{
+	margin-left: 30px;
 	}
 }
