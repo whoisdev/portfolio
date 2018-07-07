@@ -67,7 +67,7 @@ body,html{
 	position: relative;
 	left: 100px;
 	top: 250px;
-	width: 40%;
+	width: 45%;
 	z-index: 100;
 }
 .about{
@@ -262,6 +262,19 @@ textarea{
 .btn-primary:hover{
 	background-color: #ff5252;
 
+}
+.touch{
+	text-align: center;
+	color: #fff;
+	font-family: 'Dancing Script', cursive;
+}
+.touch h3{
+	font-size: 2.7rem;
+
+}
+.touch img{
+	margin-left: 20px;
+	width: 40px;
 }
 @media only screen and (max-width: 600px) {
 	#btn{
