@@ -10,7 +10,7 @@ $(window).on("load", function() {
         longitude=-123.3407;
         initMap();
     }
-    // $("#landing-page").css('display','block');
+    $("#landing-page").css('display','block');
 });
 var  latitude=49.2327;
 var  longitude=-123.3407;

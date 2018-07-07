@@ -2,7 +2,6 @@ body,html{
 	height: 100%;
 	width: 100%;
 	margin:0;
-	/*background-color: black;*/
 	padding: 0px;
 }
 
@@ -15,11 +14,31 @@ body,html{
 	background-size: cover;
 	display: none;
 }
+
+.name{
+	position: fixed;
+	top:35%;
+	font-family: 'Dancing Script', cursive;
+	left: 5%;
+}
+
+.name  h1{
+	font-weight: 250;
+	color: white;
+	font-size: 4.0rem;
+}
+
+.hand{
+	animation: shake 0.5s;
+	animation-iteration-count: 2;
+}
+
 #finger{
 	margin-left: 30px;
 	animation: point 0.5s;
 	animation-iteration-count: 2;
 }
+
 .svgg{
 	width: 50px;
 	position: absolute;
@@ -27,13 +46,14 @@ body,html{
  	left: 50%;
   	transform: translate(-50%, 0);
 }
+
 .social-connect{
 	position: absolute;
 	bottom: 3%;
 }
+
 .social-connect a{
 	text-decoration: none;
-	display: inline-block;
 	color: white;
 	border-bottom: 1px solid white;
 	margin-left: 50px;
@@ -44,6 +64,7 @@ body,html{
 	width: 50px;
 	margin:3% auto;
 }
+
 .btn{
 	float: right;
 	margin:3%;
@@ -52,37 +73,23 @@ body,html{
 	border-radius: 25px;
 	font-weight: 700;
 }
+
 .btn:hover{
 	color: white;
 	background-color: transparent;
-	font-weight: 400;
 }
+
 .info{
 	margin-bottom: 10%;
-	/*display: none;*/
+	display: none;
 	width: 100%;
 	background-color: #fff;	
 }
-.form{
-	position: relative;
-	left: 100px;
-	top: 250px;
-	width: 45%;
-	z-index: 100;
-}
+
 .about{
 	padding: 5% 15%;
 }
-#rew{
-	height: 400px;
-	background-image:url("152748010049704833.gif");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-}
-#rgk{
-	background-color:#eb4144
-}
+
 .box{
 	min-height: 350px;
 	-webkit-box-shadow: -2px 1px 18px -2px rgba(0,0,0,0.74);
@@ -90,9 +97,23 @@ body,html{
 	box-shadow: -2px 1px 18px -2px rgba(0,0,0,0.74);
 	/*display: none;*/
 }
+
+#rew{
+	height: 400px;
+	background-image:url("152748010049704833.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#rgk{
+	background-color:#eb4144
+}
+
 .box:hover{
 	cursor: pointer;
 }
+
 .rewlogo{
 	margin-top: 13%;
 	display: block;
@@ -100,138 +121,62 @@ body,html{
     margin-right: auto;
 	width: 250px;
 }
+
 .img-thumbnail{
 	background-color: transparent;
 	border: none;
 }
+
 .ipad{
 	padding: 0px;
 	width: 300px;
-	float: right;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,0%);
 }
+
 .text{
 	text-align:center;
 	padding-top: 7%;
-	color: white
-}
-#bottom{
-	width: 100%;
-	height: 100%;
-	background: #000000;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	/*display: none;*/
-}
-.btm-heading{
 	color: white;
-	margin-top: 3%;
-	text-align: center;
-	font-weight: 600;
 }
+
 #row{
 	margin-top: 5%;
 	padding: 0px;
 }
+
 #map{
 	width: 100%;
-    height: 100%;
+    height: 100vh;
 }
-.name{
-	position: fixed;
-	top:35%;
-	font-family: 'Dancing Script', cursive;
-	left: 5%;
-}
-.name  h1{
-	font-weight: 250;
-	color: white;
-	font-size: 4.0rem;
-}
+
 .info_header{
 	margin-top: 3%;
 	margin-bottom: 3%;
 }
+
 .info_header h3{
 	text-align: center;
 	font-family: 'Monoton', cursive;
 	font-size: 2.2rem;
 }
+
 .lang{
 	width: 100%;
 	background-color: #f8f7fa;
 	text-align: center;
-
 }
 .logo-lng{
 	width: 40px;
 }
+
 #map{
 	position: absolute;
  	width: 100%;
  	padding-bottom: 25%;
 }
-.customBox{
-	position: absolute;
-}
-#change-btn{
-	width: 100%;
-	float: left;
-}
-.hand{
-	/* Start the shake animation and make the animation last for 0.5 seconds */
-	animation: shake 0.5s;
-	/* When the animation is finished, start again */
-	animation-iteration-count: 2;
-}
-@keyframes point{
 
-	0% {     
-	-ms-transform: rotate(-30deg); /* IE 9 */
-    -webkit-transform: rotate(-30deg); /* Safari */
-    transform: rotate(-30deg);
-    	}
-	50% { 
-	-ms-transform: rotate(-20deg); /* IE 9 */
-    -webkit-transform: rotate(-20deg); /* Safari */
-    transform: rotate(-20deg);
-		}
-	75%
-		{
-		-ms-transform: rotate(-10deg); /* IE 9 */
-   		-webkit-transform: rotate(-10deg); /* Safari */
-    	transform: rotate(-10deg);
-		}	
-	100% { 
-		-ms-transform: rotate(0deg); /* IE 9 */
-    	-webkit-transform: rotate(0deg); /* Safari */
-    	transform: rotate(0deg);
-		}
-}
-@keyframes shake {
-	0% { transform: translate(1px, 1px) rotate(0deg); }
-	10% { transform: translate(-1px, -2px) rotate(-1deg); }
-	20% { transform: translate(-3px, 0px) rotate(1deg); }
-	30% { transform: translate(3px, 2px) rotate(0deg); }
-	40% { transform: translate(1px, -1px) rotate(1deg); }
-	50% { transform: translate(-1px, 2px) rotate(-1deg); }
-	60% { transform: translate(-3px, 1px) rotate(0deg); }
-	70% { transform: translate(3px, 1px) rotate(-1deg); }
-	80% { transform: translate(-1px, -1px) rotate(1deg); }
-	90% { transform: translate(1px, 2px) rotate(0deg); }
-	100% { transform: translate(1px, -2px) rotate(-1deg); }
-}
-#modal-rew{
-	position: fixed;
-	width: 80%;
-	height: 80%;
-	top:50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	z-index: 1;
-	background-image: linear-gradient(to right, #ed6ea0 0%, #ec8c69 100%);
-	color: white;
-	display: none;
-}
 .text__modal{
 	text-align: center;
 	position: relative;
@@ -239,43 +184,57 @@ body,html{
 	transform: translate(0,-50%);
 
 }
-.name{
-	width: 100%;
+
+.form{
+	position: relative;
+	left: 100px;
+	top: 250px;
+	width: 45%;
+	z-index: 100;
 }
+
 .form-control{
 	border: none;
 	border-bottom:1px solid #fff;
 }
+
 textarea{
 	height: 90px;
 }
+
 .btn_class{
 	width: 100%;
 	text-align: center;
 }
+
 .btn-primary{
 	width: 100%;
 	padding: 10px;
 	background-color: #ff5252;
 	border: none;
 }
+
 .btn-primary:hover{
 	background-color: #ff5252;
 
 }
+
 .touch{
 	text-align: center;
 	color: #fff;
 	font-family: 'Dancing Script', cursive;
 }
+
 .touch h3{
 	font-size: 2.7rem;
 
 }
+
 .touch img{
 	margin-left: 20px;
 	width: 40px;
 }
+
 @media only screen and (max-width: 600px) {
 	#btn{
 		margin-top: 10%;
@@ -319,4 +278,57 @@ textarea{
 	transform: translate(-50%,0);
 	width: 90%;
 	}
+}
+
+@keyframes point{
+
+	0% {     
+	-ms-transform: rotate(-30deg); /* IE 9 */
+    -webkit-transform: rotate(-30deg); /* Safari */
+    transform: rotate(-30deg);
+    	}
+	50% { 
+	-ms-transform: rotate(-20deg); /* IE 9 */
+    -webkit-transform: rotate(-20deg); /* Safari */
+    transform: rotate(-20deg);
+		}
+	75%
+		{
+		-ms-transform: rotate(-10deg); /* IE 9 */
+   		-webkit-transform: rotate(-10deg); /* Safari */
+    	transform: rotate(-10deg);
+		}	
+	100% { 
+		-ms-transform: rotate(0deg); /* IE 9 */
+    	-webkit-transform: rotate(0deg); /* Safari */
+    	transform: rotate(0deg);
+		}
+}
+@keyframes shake {
+	0% { transform: translate(1px, 1px) rotate(0deg); }
+	10% { transform: translate(-1px, -2px) rotate(-1deg); }
+	20% { transform: translate(-3px, 0px) rotate(1deg); }
+	30% { transform: translate(3px, 2px) rotate(0deg); }
+	40% { transform: translate(1px, -1px) rotate(1deg); }
+	50% { transform: translate(-1px, 2px) rotate(-1deg); }
+	60% { transform: translate(-3px, 1px) rotate(0deg); }
+	70% { transform: translate(3px, 1px) rotate(-1deg); }
+	80% { transform: translate(-1px, -1px) rotate(1deg); }
+	90% { transform: translate(1px, 2px) rotate(0deg); }
+	100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+
+/*---------------------Modals--------------------------------*/
+#modal-rew{
+	position: fixed;
+	width: 80%;
+	height: 80%;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	z-index: 1;
+	background-image: linear-gradient(to right, #ed6ea0 0%, #ec8c69 100%);
+	color: white;
+	display: none;
 }
