@@ -10,7 +10,7 @@ $(window).on("load", function() {
         longitude=-123.3407;
         initMap();
     }
-    $("#landing-page").css('display','block');
+    // $("#landing-page").css('display','block');
 });
 var  latitude=49.2327;
 var  longitude=-123.3407;
@@ -185,7 +185,7 @@ $("#down").on("click", function() {
     $("#down").fadeOut();
     $(".hand").fadeOut();
     $("#landing-page").slideUp(1000, function() {
-        $(".info").fadeIn(500, );
+        $(".info").fadeIn(500);
         $("#up").fadeIn();
         $(".box").fadeIn(1000);
     });
