@@ -1,29 +1,38 @@
+//Seeting the initial long and latitude
+var  latitude=49.2127;
+var  longitude=-123.1207;
+
+//On load events
+
 $(window).on("load", function() {
     $("#shake").addClass("hand");
     if ($(window).width() <= 800){
-        latitude=49.2827;
+        latitude=49.1927;
         longitude= -123.1207;
         initMap();
     }
+    // else if($(window).width() <= 1100){
+    //     latitude=49.1927;
+    //     longitude= -123.1207;
+    //     initMap();
+    // }
     else{
-        latitude=49.2327;
-        longitude=-123.3407;
+        latitude=49.2127;
+        longitude=-123.1207;
         initMap();
     }
-    $("#landing-page").css('display','block');
+    // $("#landing-page").css('display','block');
 });
-var  latitude=49.2327;
-var  longitude=-123.3407;
 
 $(window).resize(function(){
     if ($(window).width() <= 800){  
-        latitude=49.2827;
+        latitude=49.1927;
         longitude= -123.1207;
         initMap();
     } 
     else{
-        latitude=49.2327;
-        longitude=-123.3407;
+        latitude=49.2127;
+        longitude=-123.1207;
         initMap();
     }  
 });
@@ -171,16 +180,16 @@ function initMap() {
 
 
         });
-    var marker = new google.maps.Marker({
-        position: uluru,
-        map: map,
-        position: {
-            lat: 49.2827,
-            lng: -123.1207
-        },
-        title: 'I am in Vancouver right now'
+var marker = new google.maps.Marker({
+    position: uluru,
+    map: map,
+    position: {
+        lat: 49.2827,
+        lng: -123.1207
+    },
+    title: 'I am in Vancouver right now'
     });
-}
+
 $("#down").on("click", function() {
     $("#down").fadeOut();
     $(".hand").fadeOut();
