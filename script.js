@@ -1,7 +1,6 @@
 //Seeting the initial long and latitude
-var  latitude=49.2127;
-var  longitude=-123.1207;
 
+//Add name Attribute in the forms
 //On load events
 
 $(window).on("load", function() {
@@ -21,8 +20,11 @@ $(window).on("load", function() {
         longitude=-123.1207;
         initMap();
     }
-    // $("#landing-page").css('display','block');
+    $("#landing-page").css('display','block');
 });
+
+var  latitude=49.2127;
+var  longitude=-123.1207;
 
 $(window).resize(function(){
     if ($(window).width() <= 800){  
@@ -189,7 +191,7 @@ var marker = new google.maps.Marker({
     },
     title: 'I am in Vancouver right now'
     });
-
+}
 $("#down").on("click", function() {
     $("#down").fadeOut();
     $(".hand").fadeOut();

@@ -81,7 +81,7 @@ body,html{
 
 .info{
 	margin-bottom: 10%;
-	/*display: none;*/
+	display: none;
 	width: 100%;
 	background-color: #fff;	
 }
