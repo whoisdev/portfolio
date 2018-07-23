@@ -28,11 +28,19 @@ body,html{
 	font-size: 4.0rem;
 }
 
-.hand{
-	animation: shake 0.5s;
-	animation-iteration-count: 2;
+/*.hand{*/
+	/*animation: shake 0.5s;*/
+	/*animation-iteration-count: 2;*/
+/*}*/
+#shake{
+	position: fixed;
+	bottom: 100px;
+	right: 10px;
+	float: right;
+	width: 200px;
+	margin: 0;
+	padding: 0;
 }
-
 #finger{
 	margin-left: 30px;
 	animation: point 0.5s;
@@ -280,6 +288,9 @@ textarea{
 	}
 	textarea{
 		height: 50px;
+	}
+	#shake{
+		width: 150px;
 	}
 }
 
