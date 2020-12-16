@@ -7,12 +7,19 @@
   h1 {
     font-size: 3rem;
     line-height: 20px;
+    @include media(">=phone", "<lgphone") {
+      font-size: 2rem;
+      line-height: 25px;
+    }
+    @include media(">=lgphone", "<tablet") {
+      font-size: 1.8rem;
+    }
   }
   .grid {
     display: grid;
     margin-top: 20px;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
+    grid-gap: 5px;
     @include media(">=phone", "<lgphone") {
       grid-template-columns: 1fr;
     }

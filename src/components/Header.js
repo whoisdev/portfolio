@@ -8,12 +8,12 @@ const Header = () => {
       <div className="container">
         <div className="header-wrapper">
           <Fade bottom>
-            <h2>
+            <h1>
               Hi, I'm {data.name}{" "}
               <span role="img" aria-label="Emoji">
                 👋
               </span>
-            </h2>
+            </h1>
           </Fade>
           <Fade bottom cascade>
             <div className="heading-wrapper">
@@ -30,9 +30,7 @@ const Header = () => {
               </h1>
               <h1>
                 {" "}
-                {data.headerTagline[2]
-                  ? data.headerTagline[2]
-                  : "and experience"}
+                {data.headerTagline[2]}
               </h1>
             </div>
           </Fade>
@@ -41,12 +39,11 @@ const Header = () => {
           </Fade>
           <Fade bottom>
             <a
-              href={`mailto:${
-                data.contactEmail ? data.contactEmail : "hello@chetanverma.com"
-              }`}
+              href={`https://docs.google.com/document/d/1cbfW9bqjBkcp9__sEVLhaUILSm656bmJQJ_qOkVDjj0/edit?usp=sharing`}
+              target="_blank"
               className="primary-btn"
             >
-              CONNECT WITH ME
+              MY RESUME
             </a>
           </Fade>
         </div>
